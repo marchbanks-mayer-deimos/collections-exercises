@@ -18,6 +18,10 @@ public class Student {
     public void addGrade(double grade){
         this.grades.add(grade);
     }
+
+    public ArrayList<Double> getGrades(){
+        return grades;
+    }
     // returns the average of the students grades
     public double getGradeAverage(){
         double sum =0;
